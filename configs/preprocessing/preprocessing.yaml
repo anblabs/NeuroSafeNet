@@ -1,0 +1,3 @@
+scaler: standard          # standard | robust
+onehot_dense: true        # try dense OHE first, fallback if sklearn older
+save_feature_names: true

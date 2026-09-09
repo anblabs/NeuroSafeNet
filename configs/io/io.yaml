@@ -1,0 +1,7 @@
+outdir_tag: Model_3
+outputs_dirname: outputs
+
+save_cleaned_csv: true
+save_imputed_full_csv: true
+save_in_out_clean_csv: true
+save_in_out_imputed_csv: true

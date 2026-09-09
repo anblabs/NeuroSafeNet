@@ -1,0 +1,28 @@
+file_name: Final_Irfan_20260115_AO_Recovery_Clean.xlsx
+sheet: 0
+
+output_col: AO_Biosafety
+
+input_cols:
+  - MIE-P_M_Type
+  - MIE-P_Size_nm
+  - MIE-P_Shape
+  - MIE-P_Agglomeration
+  - MIE-P_Zeta_potential
+  - MIE-E_Cell_Type
+  - MIE-E_NPs_Conc (ug/mL)
+  - MIE-E_Stimulant
+  - MIE-E_Stimulant_Conc(ug/ml)
+  - MIE-E_C_uptake
+  - MIE-E_Organism
+  - MIE-E_Sex
+  - MIE-E_Age_Weeks
+  - MIE-E_Weight_g
+  - MIE-E_NPs_Dose_ mg/Kg
+  - MIE-E_Dose_Regimen
+  - MIE-E_Ad_route
+  - MIE-E_Injury_Model
+
+valid_labels: ["Good", "Bad"]
+label_missing_strategy: drop
+

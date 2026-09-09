@@ -1,0 +1,13 @@
+file_name: Final_Irfan_20260115.xlsx
+sheet: 0
+
+output_col: AO_Recovery
+
+input_cols:
+  - MIE-P_M_Type
+  - MIE-P_Size_nm
+  - MIE-P_Shape
+  - MIE-P_Agglomeration
+
+valid_labels: ["Good", "Bad"]
+label_missing_strategy: drop

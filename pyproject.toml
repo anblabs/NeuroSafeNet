@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ninflam"
+version = "0.1.0"
+description = "ninflam"
+requires-python = ">=3.9"
+dependencies = [
+    "joblib",
+    "matplotlib",
+    "numpy",
+    "omegaconf",
+    "openpyxl",
+    "pandas",
+    "scikit-learn",
+    "seaborn",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+ninflam-prep = "ninflam.cli:main"

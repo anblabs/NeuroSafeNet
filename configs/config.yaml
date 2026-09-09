@@ -1,0 +1,15 @@
+log_level: INFO
+
+training:
+  use_kfold: true
+  n_splits: 10
+  models:
+    - RF
+    - DecisionTree
+    - NaiveBayes
+    - LogisticRegression
+    - SVM
+    - KNN
+    - LDA
+    - MLP
+  min_class_count: 2
