@@ -3,7 +3,6 @@
 > **Conserved biological response states organize nanoparticle biosafety across biological systems**
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Machine Learning](https://img.shields.io/badge/ML-Scikit--Learn%20%7C%20XGBoost%20%7C%20CatBoost-orange)](https://github.com/)
 
 ---
